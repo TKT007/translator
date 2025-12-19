@@ -76,8 +76,14 @@
             display: flex;
             gap: 15px;
             width: 100%;
-            max-width: 900px;
+            max-width: 1400px;
             flex-wrap: wrap;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-wrap: nowrap;
+            }
         }
 
         .panel {
